@@ -1,0 +1,416 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#container{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#header{
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align:left;
+    font-size: 50px;
+    color: white;
+    line-height: 340px;
+    background-image: url(https://1.bp.blogspot.com/-W36WcOdIADA/WdGLmWwcoSI/AAAAAAABEmE/R5k3yvjyeo8-7UoZCOXE94_GnO8QCYVyQCLcBGAs/s1600/Escudo-Barcelona.jpg);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+}
+
+#nav{
+    background-color: rgb(0, 77, 152);
+    width: 100%;
+    
+}
+
+#nav ul{
+    display: flex;
+    
+    justify-content: center;
+}
+
+#nav ul li{
+    list-style: none;
+   
+}
+
+#nav ul li a{
+    text-decoration: none;
+    padding: 20px 25px 20px 25px;
+    display: table;
+    color: white;
+    border-right: 0.5px solid rgb(168, 19, 62) ;
+    border-left: 0.5px solid rgb(168, 19, 62) ;
+}
+
+#nav ul li a:hover{
+    background-color: rgb(168, 19, 62);
+    color:white;
+    border: 1px rgb(168, 19, 62) solid;
+}
+
+
+
+#historia, #simbologia, #indumentaria, #infraestructura, #rivalidades, #fundacion{
+    width: 92%;
+    height: 100%;
+    display: table;
+    
+}
+
+#historia h2, #simbologia h2, #indumentaria h2, #infraestructura h2, #rivalidades h2, #fundacion h2{
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: rgb(168, 19, 62);
+}
+
+#historia h3, #simbologia h3, #indumentaria h3, #infraestructura h3, #rivalidades h3, #fundacion h3{
+    color: rgb(0, 77, 152);
+}
+
+#historia p, #simbologia p, #indumentaria p, #infraestructura p, #rivalidades p, #fundacion p{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+
+hr{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color:rgb(0, 77, 152);
+    height: 3px;
+}
+
+.texto-flotante{
+    float: left;
+}
+
+.imagen{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 15%;
+    height: 25%;
+}
+
+.imagen2{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 20%;
+    height: 300px;
+}
+
+.imagen3{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 20%;
+    height: 300px;
+}
+
+.imagen4{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 30%;
+    height: 300px;
+}
+
+.imagen5{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 20%;
+    height: 160px;
+}
+
+.imagen6{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 20%;
+    height: 150px;
+}
+
+
+.imagen7{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 35%;
+    height: 30%;
+}
+
+#arriba{
+    background-color: rgb(168, 19, 62);
+    color: rgb(0, 77, 152);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    right: 11px;
+    position: fixed;
+    bottom: 170px;
+    border-radius: 100%;
+}
+
+#arriba a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 250%;
+}
+
+#arriba:hover{
+    background-color: rgb(0, 77, 152);
+    color: yellow;
+}
+
+#arriba a:hover{
+    color: yellow;
+}
+
+#footer{
+    width: 100%;
+    height: 150px;
+    background-color:rgb(0, 77, 152);
+    color: white;
+    text-align: left;
+    padding-top: 1.5%;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.imagen8{
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 5%;
+    height: 45px;
+}
+
+@media(max-width:600px){
+
+#container{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+    #header{
+        line-height: 120px;
+        font-size: 10px;
+        background-image: url(https://1.bp.blogspot.com/-W36WcOdIADA/WdGLmWwcoSI/AAAAAAABEmE/R5k3yvjyeo8-7UoZCOXE94_GnO8QCYVyQCLcBGAs/s1600/Escudo-Barcelona.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    #nav{
+        background-color: rgb(0, 77, 152);
+        width: 100%;
+        height: 50px;
+        transition: all 0.5s;
+        display: table;
+        border: 1px white solid;
+        /*border: 1px white solid;*/
+    }
+    
+    #nav ul{
+        padding: 0px;
+        margin: 0px;
+        flex-direction: column;
+       
+    }
+    
+    #nav ul li{
+        border-bottom: 1px solid rgb(168, 19, 62);
+        width: 100%;
+        list-style: none;
+    }
+    
+    #nav ul li a{
+        text-decoration: none;
+        display: table;
+        color: white;
+        width: 85.5%;
+    }
+    
+    
+    #historia, #simbologia, #indumentaria, #infraestructura, #rivalidades, #fundacion{
+        width: 92%;
+        height: 100%;
+        display: table;
+    }
+    
+    #historia h2, #simbologia h2, #indumentaria h2, #infraestructura h2, #rivalidades h2, #fundacion h2{
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    #historia h3, #simbologia h3, #indumentaria h3, #infraestructura h3, #rivalidades h3, #fundacion h3{
+        color: rgb(0, 77, 152);
+    }
+    
+    #historia p, #simbologia p, #indumentaria p, #infraestructura p, #rivalidades p, #fundacion p{
+        padding-left: 2%;
+        padding-right: 2%;
+        text-align: justify;
+    }
+    .texto-justificado{
+        text-align: justify;
+    }
+    
+    hr{
+        margin-top: 1%;
+        margin-bottom: 2%;
+        background-color:rgb(0, 77, 152);
+        height: 4px;
+    }
+    
+    .texto-flotante{
+        float: left;
+    }
+    
+    .imagen{
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 35%;
+        height: 30%;
+    }
+       
+    .imagen2{
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 35%;
+        height: 30%;
+    }
+    
+    .imagen3{
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 35%;
+        height: 30%;
+    }
+    
+    .imagen4{
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 45%;
+        height: 40%;
+    }
+    
+    .imagen5{
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 35%;
+        height: 30%;
+    }
+    
+    .imagen6{
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 35%;
+        height: 30%;
+    }
+    
+    
+    .imagen7{
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 50%;
+        height: 35%;
+    }
+    
+    #arriba{
+        background-color: rgb(168, 19, 62);
+        color: rgb(0, 77, 152);
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        right: 8px;
+        position: fixed;
+        bottom: 210px;
+        border-radius: 100%;
+    }
+    
+    #arriba a{
+        text-decoration: none;
+        color: yellow;
+        font-size: 200%;
+    }
+    
+    #arriba:hover{
+        background-color: rgb(0, 77, 152);
+        color: yellow;
+    }
+    
+    #arriba a:hover{
+        color: yellow;
+    }
+
+    #footer{
+        width: 100%;
+        height: 150px;
+        background-color: rgb(0, 77, 152);
+        color: white;
+        text-align: left;
+        padding-top: 1.5%;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .imagen8{
+        margin-right: 10px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 15%;
+        height: 45px;
+    }
+}
+
